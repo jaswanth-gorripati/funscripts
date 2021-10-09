@@ -1,4 +1,3 @@
-var element = document.getElementById("sh");
-element.onclick = function sayHello() {
-  alert("Hi from Gist repo")
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
 }
